@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 int main() {
-    // Declaração das Variáveis
+    // Declaração de Variáveis
     char estado1[50], estado2[50];
     char codigo1[5], codigo2[5];
     char cidade1[50], cidade2[50];
@@ -9,17 +10,17 @@ int main() {
     float pib1, pib2;
     int pontosturisticos1, pontosturisticos2;
 
-    // Leitura da Carta 2
-    printf("Cadastro da Carta 1:\n");
+    // Cadastro Carta 1
+    printf("Cadastro da Carta 1\n");
 
     printf("Digite o Estado: ");
-    scanf(" %s", &estado1);
+    scanf("%s", estado1);
 
     printf("Digite o código da carta: ");
     scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %s", cidade1);
+    scanf("%s", cidade1);
 
     printf("Digite a população: ");
     scanf("%d", &populacao1);
@@ -33,17 +34,17 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontosturisticos1);
 
-    // Leitura da Carta 2
-    printf("\nCadastro da Carta 2:\n");
+    // Cadastro Carta 2
+    printf("\nCadastro da Carta 2\n");
 
-    printf("Digite o estado: ");
-    scanf(" %s", &estado2);
+    printf("Digite o Estado: ");
+    scanf("%s", estado2);
 
     printf("Digite o código da carta: ");
     scanf("%s", codigo2);
 
     printf("Digite o nome da cidade: ");
-    scanf(" %s", cidade2);
+    scanf("%s", cidade2);
 
     printf("Digite a população: ");
     scanf("%d", &populacao2);
@@ -57,7 +58,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontosturisticos2);
 
-    // Exibição das Cartas
+    // Leitura Das Cartas
     printf("\nCarta 1:\n");
     printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigo1);
@@ -68,7 +69,7 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosturisticos1);
 
     printf("\nCarta 2:\n");
-    printf("Estado: %c\n", estado2);
+    printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
